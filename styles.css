@@ -1,32 +1,32 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.col-1>img{
-  
-	object-fit:fill;
-}
-
-
-
+/*  your css code here. If applicable */
 .hero{
     display: flex;
-    width: 600px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 0px 8px 16px rgb(0,0,0,0.1);
+    justify-content:space-evenly;
+    align-items:center ;
 
 }
-.col-1{
- flex: 2;
-}
-.col-2{
-    flex: 3;
-	padding:30px;
+.img{
+    width:70%;
+    height: 50%;
+    object-fit: cover;
 }
 .btn{
-    background-color: rgb(189, 64, 15);
-margin-left:90px
+    padding: 7px 25px ;
+    background-color:#FE0001 ;
+    color: #FEFEFE ;
+    border-radius: 5px;
+    border-color: transparent;
+    text-align: center;
+    margin-left: 60px;
 }
+.div2{
+    width: 250px;
+    height: 300px;
+    display: inline;
+    justify-content:column;
+    align-items: center;
+
+}
+.h1,.para{
+    text-align: center;
+} 
