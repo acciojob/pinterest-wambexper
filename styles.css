@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.col-1>img{
+  
+	object-fit:fill;
+}
+
+
+
+.hero{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgb(0,0,0,0.1);
+
+}
+.col-1{
+ flex: 2;
+}
+.col-2{
+    flex: 3;
+	padding:30px;
+}
+.btn{
+    background-color: rgb(189, 64, 15);
+margin-left:90px
+}
